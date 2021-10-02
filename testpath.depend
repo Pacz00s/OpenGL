@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1633188448 source:/home/szymon/Pulpit/testpath/source/fpsController.cpp
+	"../header/fpsController.h"
+
+1633188446 /home/szymon/Pulpit/testpath/header/fpsController.h
+	"transform3d.h"
+	"GLFW/glfw3.h"
+
+1633188448 /home/szymon/Pulpit/testpath/header/transform3d.h
+	"glm/gtc/matrix_transform.hpp"
+
+1633197768 source:/home/szymon/Pulpit/testpath/source/main.cpp
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	"glm/gtc/matrix_transform.hpp"
+	"FreeImage.h"
+	<vector>
+	"../header/SceneObj.h"
+	"../header/fpsController.h"
+	"../header/material.h"
+	"../header/texture.h"
+	<iostream>
+
+1633188448 /home/szymon/Pulpit/testpath/header/SceneObj.h
+	"mesh.h"
+	"transform3d.h"
+
+1633188448 /home/szymon/Pulpit/testpath/header/mesh.h
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1633188446 /home/szymon/Pulpit/testpath/header/material.h
+	"shaderProgram.h"
+	"texture.h"
+	"glm/gtc/matrix_transform.hpp"
+	<vector>
+
+1633188448 /home/szymon/Pulpit/testpath/header/shaderProgram.h
+	"shader.h"
+	<iostream>
+
+1633194463 /home/szymon/Pulpit/testpath/header/shader.h
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1633188448 /home/szymon/Pulpit/testpath/header/texture.h
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	"FreeImage.h"
+	<iostream>
+
+1633188448 source:/home/szymon/Pulpit/testpath/source/material.cpp
+	"../header/material.h"
+
+1633192449 source:/home/szymon/Pulpit/testpath/source/mesh.cpp
+	"../header/mesh.h"
+	"assimp/Importer.hpp"
+	"assimp/postprocess.h"
+	"assimp/scene.h"
+	"assimp/DefaultLogger.hpp"
+	"assimp/LogStream.hpp"
+
+1633188448 source:/home/szymon/Pulpit/testpath/source/SceneObj.cpp
+	"../header/SceneObj.h"
+
+1633196765 source:/home/szymon/Pulpit/testpath/source/shader.cpp
+	"../header/shader.h"
+	<string.h>
+	<errno.h>
+
+1633188448 source:/home/szymon/Pulpit/testpath/source/shaderProgram.cpp
+	"../header/shaderProgram.h"
+
+1633188448 source:/home/szymon/Pulpit/testpath/source/texture.cpp
+	"../header/texture.h"
+
+1633188448 source:/home/szymon/Pulpit/testpath/source/transform2d.cpp
+	"../header/transform2d.h"
+
+1633188448 /home/szymon/Pulpit/testpath/header/transform2d.h
+	"glm/gtc/matrix_transform.hpp"
+
+1633188448 source:/home/szymon/Pulpit/testpath/source/transform3d.cpp
+	"../header/transform3d.h"
+

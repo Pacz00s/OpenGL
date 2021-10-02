@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="testpath" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/testpath" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/home/szymon/Pulpit/testpath/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/testpath" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+		</Compiler>
+		<Linker>
+			<Add library="/usr/lib/x86_64-linux-gnu/libGL.so" />
+			<Add library="freeimage" />
+			<Add library="/usr/lib/x86_64-linux-gnu/libGLEW.so" />
+			<Add library="glfw" />
+			<Add library="assimp" />
+		</Linker>
+		<Unit filename="header/SceneObj.h" />
+		<Unit filename="header/fpsController.h" />
+		<Unit filename="header/material.h" />
+		<Unit filename="header/mesh.h" />
+		<Unit filename="header/shader.h" />
+		<Unit filename="header/shaderProgram.h" />
+		<Unit filename="header/texture.h" />
+		<Unit filename="header/transform2d.h" />
+		<Unit filename="header/transform3d.h" />
+		<Unit filename="source/SceneObj.cpp" />
+		<Unit filename="source/fpsController.cpp" />
+		<Unit filename="source/main.cpp" />
+		<Unit filename="source/material.cpp" />
+		<Unit filename="source/mesh.cpp" />
+		<Unit filename="source/shader.cpp" />
+		<Unit filename="source/shaderProgram.cpp" />
+		<Unit filename="source/texture.cpp" />
+		<Unit filename="source/transform2d.cpp" />
+		<Unit filename="source/transform3d.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
